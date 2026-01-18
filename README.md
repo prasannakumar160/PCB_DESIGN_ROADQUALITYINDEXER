@@ -1,6 +1,6 @@
 # PCB_DESIGN_ROADQUALITYINDEXER
 ## 🔍 Interactive PCB Viewer
-[Click here to view the Interactive BOM](https:https://htmlpreview.github.io/?https://github.com/prasannakumar160/PCB_DESIGN_ROADQUALITYINDEXER/blob/main/ibom.html)
+[Click here to view the Interactive BOM](https://htmlpreview.github.io/?https://github.com/prasannakumar160/PCB_DESIGN_ROADQUALITYINDEXER/blob/main/ibom.html)
 
 
 Problem Statement
