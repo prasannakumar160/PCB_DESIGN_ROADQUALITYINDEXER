@@ -4,6 +4,7 @@
 
 
 Problem Statement
+
 For my honors, NodeMCU was used along with the NEO-6M GPS module and the BNO085 IMU sensor to analyze and index road quality for two-wheelers.
 During development, the need arose to integrate additional sensors into the system.
 A major limitation was identified — the NodeMCU has only one I²C bus, which was already used by the IMU sensor.
