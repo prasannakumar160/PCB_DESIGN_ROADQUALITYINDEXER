@@ -12,6 +12,7 @@ The NodeMCU also uses a micro USB-B interface, which is outdated compared to mod
 These issues made the system less scalable, less efficient, and unsuitable for modern hardware expansion.
 
 Solution
+
 A custom novel PCB was designed to integrate both the IMU and GPS modules into a single compact board.
 An I²C bus multiplexer was added to overcome the limitation of a single I²C bus.
 The micro USB-B connector was replaced with a USB-C port for improved connectivity and durability.
@@ -19,6 +20,7 @@ The redesign allows for multiple sensor connections without communication confli
 Overall, the PCB became more efficient, scalable, compact, and future-ready.
 
 Components Used in the Circuit
+
 NodeMCU: Acts as the main controller, handling sensor data processing and wireless communication.
 GPS Module (NEO-8M): Provides accurate real-time location data for mapping road quality.
 IMU Sensor (BNO055): Measures acceleration and orientation to detect road surface irregularities.
@@ -27,6 +29,7 @@ USB-C Port: Replaces the outdated micro USB-B, offering faster, more durable, an
 Voltage Regulator: Converts the 5V output from the USB-C port to 3V required by the components.
 
 Purpose of the PCB:
+
 To create an integrated and compact hardware solution for indexing and analyzing road quality in two-wheelers.
 To combine the NodeMCU, GPS (NEO-8M), and IMU (BNO055) sensors on a single PCB.
 To include an I²C bus multiplexer for supporting multiple additional sensors.
@@ -36,6 +39,7 @@ To eliminate wiring complexity, enhance reliability, and reduce overall system s
 To enable efficient data acquisition for real-time road condition monitoring.
 
 SCHEMATICS:
+
 The image shows the schematic I designed for the PCB (PVB).
 This PCB was custom-designed by me since it is not available in the market.
 Connections are established from the USB-C port to a voltage regulator, as the NodeMCU, GPS, and IMU require 3.3V, while the USB-C provides 5V output.
